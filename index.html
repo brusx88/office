@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Красивая интерактивная заглушка для сайта на JS</title>
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="css/stylesheet.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+</head>
+
+<body>
+
+    <div id="wrapper__office">
+      <header class="header">
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__list__item">
+              <a href="#" class="nav__list__item__link">Офис</a>
+            </li>
+            <li class="nav__list__item">
+              <a href="#" class="nav__list__item__link">Друзья</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <div class="hero">
+        <h1 class="hero__title">
+          Этот сайт я получается создал для своей девушки, чтобы она смотрела сериалы, которые я заставляю ее смотреть.
+        </h1>
+        <button id="hero__button" onClick="showPopUp()">
+          Смотреть
+        </button>
+      </div>
+      <div id="pop-up" >
+        <iframe class="iframe-film" src="//92.svetacdn.in/LQV8IHDsPGaZ/tv-series/594" width="640" height="480" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </div>
+    <script src="js/index.js"></script>
+</body>
+</html>
